@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="editText_textSize_login">22sp</dimen>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="textView_padding_home">20sp</dimen>
+    <dimen name="editText_margin_createAccount">10dp</dimen>
+    <dimen name="textView_textSize_home">22sp</dimen>
+    <dimen name="edittext_margin_search_student">10dp</dimen>
+    <dimen name="button_margin_search_student">10dp</dimen>
+    <dimen name="button_margin_add_student">70dp</dimen>
+    <dimen name="button_margin_edit_student">10dp</dimen>
+    <dimen name="textSize_total_credit">16sp</dimen>
+    <dimen name="margin_start_left_botton_credit">150dp</dimen>
+    <dimen name="textView_margin_credit">15sp</dimen>
+    <dimen name="layout_marginTop_credit">25dp</dimen>
+    <dimen name="textView_credits">22sp</dimen>
+    <dimen name="textSize_textView_take_credit">22sp</dimen>
+    <dimen name="margin_left_button_cancel_credit">50dp</dimen>
+    <dimen name="button_width_credit">100dp</dimen>
+    <dimen name="image_marginTop_stdent">15dp</dimen>
+    <dimen name="image_marginRight_stdent">10dp</dimen>
+    <dimen name="textView_marginTop_student_name">25sp</dimen>
+    <dimen name="textView_textSize_studentName">22sp</dimen>
+</resources>

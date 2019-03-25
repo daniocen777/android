@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ClasesApp</string>
+    <string name="hint_username">Usuario</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="text_button_login">Login</string>
+    <string name="textView_home">Panel de Control</string>
+    <string name="hint_search_student">Apellido</string>
+    <string name="find_student">Buscar estudiante</string>
+    <string name="add_student">Nuevo Estudiante</string>
+    <string name="edit_student">Editar Datos</string>
+    <string name="hint_name_create">Nombre</string>
+    <string name="hint_lastName_create">Apellido</string>
+    <string name="hint_hours_create">Horas</string>
+    <string name="hint_minutes_create">Minutos</string>
+    <string name="text_button_createAccount">Guardar Datos</string>
+    <string name="hint_search_dni">DNI</string>
+    <string name="hint_dni_create">DNI</string>
+    <string name="hint_complete_name">Nombre Completo</string>
+    <string name="hint_accumulated_time">Tiempo: 0 horas 0 minutos</string>
+    <string name="text_total_credit">Créditos: 0</string>
+    <string name="text_button_takeCredit">Tomar Crédito</string>
+    <string name="text_button_update_student">Enviar datos</string>
+    <string name="textView_title_take_credit">Cobrar crédito</string>
+    <string name="hint_take_credit">Créditos</string>
+    <string name="text_button_dialog_takeCredit">Cobrar</string>
+    <string name="text_button_dialog_takeCredit_cancelar">Cancelar</string>
+    <string name="textView_student_name_item">Nombre</string>
+    <string name="textView_student_dni_item">DNI</string>
+    <string name="textView_student_hours_item">Horas</string>
+    <string name="textView_student_minutes_item">Minutos</string>
+    <string name="textView_student_credits_item">Créditos</string>
+    <string name="list_student">Lista de estudiantes</string>
+    <string name="text_button_edit_student">Editar</string>
+</resources>

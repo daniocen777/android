@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Cuando el checkBox esté en false, mostrar el corazón sin sombrear-->
+    <item android:drawable="@drawable/heart"
+        android:state_checked="false">
+    </item>
+
+    <!-- Cuando el checkBox esté en true, mostrar el corazón sombreado-->
+    <item android:drawable="@drawable/heart_full"
+        android:state_checked="true">
+    </item>
+
+    <!-- Estado por defecto-->
+    <item android:drawable="@drawable/heart">
+    </item>
+
+</selector>

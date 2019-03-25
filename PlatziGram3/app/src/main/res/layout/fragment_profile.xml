@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragment.ProfileFragment">
+    <!-- AppBar -->
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@color/colorPrimary">
+        <!-- CollapsingToolbar -->
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsingToolbarProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:statusBarScrim="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+            <!-- Linear layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/height_cardview"
+                android:paddingBottom="@dimen/paddingtop_titleimagedetail"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:gravity="center">
+                <!-- Nombre -->
+                <TextView
+                    android:id="@+id/usernameProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/my_name"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textsize_username_profile"
+                    tools:ignore="SpUsage" />
+                <!-- END - Nombre -->
+            </LinearLayout>
+            <!-- END - Linear layout -->
+            <!-- Toolbar -->
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+            <!-- END - Toolbar -->
+        </android.support.design.widget.CollapsingToolbarLayout>
+        <!-- END - CollapsingToolbar -->
+    </android.support.design.widget.AppBarLayout>
+    <!-- END - AppBar -->
+    <!-- RecyclerView  -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pictureProfileRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+    <!-- END - RecyclerView -->
+    <!-- Imagen que luego irá al centro -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/dimen_cirbleimage_profile"
+        android:layout_height="@dimen/dimen_cirbleimage_profile"
+        android:src="@drawable/image"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="@dimen/margintop_circleimage_profile"
+        android:elevation="@dimen/elevation_circleimage_profile"
+        app:layout_behavior="com.zoonref.SimpleViewBehavior"
+        app:dependsOn="@+id/appBarProfile"
+        app:dependType="y"
+        app:dependTargetY="@dimen/limity_circleimage"
+        app:targetX="@dimen/activity_vertical_margin"
+        app:targetY="@dimen/margintoptoolbar_circleimage_profile"
+        app:targetWidth="@dimen/width_circleimagetoolbar_profile"
+        app:targetHeight="@dimen/height_circleimagetoolbar_profile"/>
+    <!-- END - Imagen -->
+    <!-- Text depende de la imagen -->
+    <TextView
+        android:id="@+id/usernameToolbarProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_name"
+        android:textSize="@dimen/textsize_usernametoolbar_profile"
+        android:elevation="@dimen/elevation_circleimage_profile"
+        android:layout_marginLeft="@dimen/marginleft_usernametoolbar_profile"
+        android:layout_marginTop="@dimen/margintop_usernametoolbar_profile"
+        android:gravity="center_vertical"
+        android:textColor="@android:color/white"
+        android:alpha="0"
+        app:layout_behavior="com.zoonref.SimpleViewBehavior"
+        app:dependsOn="@+id/appBarProfile"
+        app:dependType="y"
+        app:dependTargetY="@dimen/limity_usernametoolbar_profile"
+        app:targetY="@dimen/margintoptargety_usernametoolbar_profile"
+        app:targetAlpha="1"/>
+    <!-- END - Text depende de la imagen -->
+</android.support.design.widget.CoordinatorLayout>

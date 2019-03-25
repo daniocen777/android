@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_username">User</string>
+    <string name="hint_password">Password</string>
+    <string name="text_button_login">Login</string>
+    <string name="textView_home">Control Panel</string>
+    <string name="hint_search_student">Last name</string>
+    <string name="find_student">Search student</string>
+    <string name="add_student">New Student</string>
+    <string name="edit_student">Edit</string>
+    <string name="hint_name_create">Name</string>
+    <string name="hint_lastName_create">Last name</string>
+    <string name="hint_hours_create">Hours</string>
+    <string name="hint_minutes_create">Minutes</string>
+    <string name="text_button_createAccount">Save</string>
+    <string name="toolbar_title_createAccount">Create account</string>
+    <string name="hint_search_dni">DNI</string>
+    <string name="hint_dni_create">DNI</string>
+    <string name="hint_complete_name">Complete name</string>
+    <string name="hint_accumulated_time">Time: 0 hours 0 minutes</string>
+    <string name="text_total_credit">Credits: 0</string>
+    <string name="text_button_takeCredit">Take credit</string>
+    <string name="text_button_update_student">Save</string>
+    <string name="textView_title_take_credit">Take credit</string>
+    <string name="hint_take_credit">Credits</string>
+    <string name="text_button_dialog_takeCredit">Take</string>
+    <string name="text_button_dialog_takeCredit_cancelar">Cancel</string>
+    <string name="textView_student_name_item">Name</string>
+    <string name="textView_student_dni_item">DNI</string>
+    <string name="textView_student_hours_item">Hours</string>
+    <string name="textView_student_minutes_item">Minutes</string>
+    <string name="textView_student_credits_item">Credits</string>
+    <string name="list_student">List</string>
+    <string name="text_button_edit_student">Edit</string>
+</resources>

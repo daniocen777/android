@@ -1,0 +1,35 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="edittext_textSize_login">22sp</dimen>
+    <dimen name="padding_horizontal_login">32dp</dimen>
+    <dimen name="textsize_dont_have_account">16sp</dimen>
+    <dimen name="edittext_margin_create_account">10dp</dimen>
+    <dimen name="height_cardview">200dp</dimen>
+    <dimen name="cornerradius_cardview">4dp</dimen>
+    <dimen name="textsize_username_card">25sp</dimen>
+    <dimen name="timecard_margin_left">5dp</dimen>
+    <dimen name="like_margintop_card">10dp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
+    <dimen name="appbarlayout_height">256dp</dimen>
+    <dimen name="textsize_usernamedetail">25sp</dimen>
+    <dimen name="textsize_likenumberdetail">15sp</dimen>
+    <dimen name="marginleft_secondword">7dp</dimen>
+    <dimen name="height_divider">1dp</dimen>
+    <dimen name="paddingtop_titleimagedetail">20dp</dimen>
+    <dimen name="padding_horizontal_textcontentdetail">35dp</dimen>
+    <dimen name="textsize_username_profile">30sp</dimen>
+    <dimen name="dimen_cirbleimage_profile">160dp</dimen>
+    <dimen name="margintop_circleimage_profile">30dp</dimen>
+    <dimen name="elevation_circleimage_profile">10dp</dimen>
+    <dimen name="limity_circleimage">-206dp</dimen>
+    <dimen name="margintoptoolbar_circleimage_profile">-15dp</dimen>
+    <dimen name="width_circleimagetoolbar_profile">40dp</dimen>
+    <dimen name="height_circleimagetoolbar_profile">40dp</dimen>
+    <dimen name="textsize_usernametoolbar_profile">18sp</dimen>
+    <dimen name="marginleft_usernametoolbar_profile">72dp</dimen>
+    <dimen name="margintop_usernametoolbar_profile">-100dp</dimen>
+    <dimen name="limity_usernametoolbar_profile">-250dp</dimen>
+    <dimen name="margintoptargety_usernametoolbar_profile">-5dp</dimen>
+</resources>
